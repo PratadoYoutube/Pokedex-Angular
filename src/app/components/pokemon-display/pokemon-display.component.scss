@@ -1,0 +1,25 @@
+@use 'variables' as *;
+
+
+.pokemon__image {
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+  }
+  
+  .pokemon__data {
+    position: absolute;
+    top: 54.5%;
+    right: 27%;
+    font-weight: 600;
+    color: $secondary-color;
+    font-size: clamp(8px, 5vw, 25px);
+  
+    .pokemon__name {
+      color: $primary-color;
+      text-transform: capitalize;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+
+
+.form {
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+  
+    .input__search {
+      width: 100%;
+      padding: 4%;
+      outline: none;
+      border: 2px solid $input-border;
+      border-radius: 5px;
+      font-weight: 600;
+      color: $primary-color;
+      font-size: clamp(8px, 5vw, 1rem);
+      box-shadow: $box-shadow-outer;
+    }
+  }
+  
