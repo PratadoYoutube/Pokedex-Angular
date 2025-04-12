@@ -1,3 +1,4 @@
+![Image](https://github.com/user-attachments/assets/a7146b3e-b8ce-441b-9a6d-85cd0745012e)
 # PokedexAngular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
