@@ -1,3 +1,4 @@
+https://s4.ezgif.com/tmp/ezgif-49e5503e6beae0.gif
 # PokedexAngular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
