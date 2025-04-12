@@ -1,16 +1,11 @@
 <main>
   <app-pokedex-container>
-    <app-pokemon-display
-      [pokemonName]="pokemonName"
-      [pokemonNumber]="pokemonNumber"
-      [pokemonImageUrl]="pokemonImageUrl"
-    ></app-pokemon-display>
+    <app-pokemon-display [pokemonName]="pokemonName" [pokemonNumber]="pokemonNumber"
+      [pokemonImageUrl]="pokemonImageUrl"></app-pokemon-display>
 
     <app-search-form (searchPokemon)="onSearchPokemon($event)"></app-search-form>
-    <app-navigation-buttons 
-  (prev)="onPrevPokemon()" 
-  (next)="onNextPokemon()">
-</app-navigation-buttons>
+    <app-navigation-buttons (prev)="onPrevPokemon()" (next)="onNextPokemon()">
+    </app-navigation-buttons>
 
   </app-pokedex-container>
 </main>
