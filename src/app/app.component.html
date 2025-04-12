@@ -1,15 +1,16 @@
 <main>
-  <section class="pokedex">
+  <app-pokedex-container>
     <app-pokemon-display
       [pokemonName]="pokemonName"
       [pokemonNumber]="pokemonNumber"
       [pokemonImageUrl]="pokemonImageUrl"
     ></app-pokemon-display>
 
-    <app-search-form
-      (searchPokemon)="onSearchPokemon($event)"
-    ></app-search-form>
+    <app-search-form (searchPokemon)="onSearchPokemon($event)"></app-search-form>
+    <app-navigation-buttons 
+  (prev)="onPrevPokemon()" 
+  (next)="onNextPokemon()">
+</app-navigation-buttons>
 
-    <app-navigation-buttons></app-navigation-buttons>
-  </section>
+  </app-pokedex-container>
 </main>

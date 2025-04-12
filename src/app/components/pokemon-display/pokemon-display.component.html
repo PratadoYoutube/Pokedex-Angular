@@ -1,5 +1,13 @@
-<img [src]="pokemonImageUrl" alt="pokemon" class="pokemon__image" />
-<h1 class="pokemon__data">
-  <span class="pokemon__number">{{ pokemonNumber }}</span> -
-  <span class="pokemon__name">{{ pokemonName }}</span>
+<img 
+  [src]="pokemonImageUrl" 
+  alt="{{ pokemonName }}" 
+  class="pokemon__image" 
+  *ngIf="pokemonImageUrl"
+  width="200"
+  height="200"
+/>
+
+<h1 class="pokemon__data" *ngIf="pokemonNumber && pokemonName">
+  <span class="pokemon__number">#{{ pokemonNumber }}</span> -
+  <span class="pokemon__name">{{ pokemonName | titlecase }}</span>
 </h1>

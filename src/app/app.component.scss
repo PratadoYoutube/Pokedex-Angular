@@ -1,10 +1,15 @@
-@use 'variables' as *;
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #7ecfff, #cceeff);
+}
 
 main {
-  display: inline-block;
-  margin-top: 2%;
-  padding: 15px;
-  position: relative;
+  background: url('/assets/images/pokedex.png') no-repeat center center;
+  background-size: contain;
   width: 425px;
   height: 637px;
+  position: relative;
 }

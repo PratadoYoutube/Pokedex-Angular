@@ -1,6 +1,8 @@
+@use './variables';
+
 body {
-  font-family: $font-family-base;
+  font-family: variables.$font-family-base;
   text-align: center;
-  background: $bg-gradient;
+  background: variables.$bg-gradient;
   min-height: 100vh;
 }
